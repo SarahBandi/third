@@ -1,0 +1,181 @@
+* {
+    direction: rtl;
+    font-family: Vazirmatn UI FD NL;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(225, 17, 110);
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+h2 {
+    color: rgb(225, 17, 110);
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+
+address {
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+#header {
+    content: "";
+    display: table;
+    clear: right;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: right;
+}
+
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 630px) {
+
+    ::selection,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+body {
+    background-color: #f2f1f1;
+}
+
+#header {
+
+    border: rgb(186, 184, 185);
+    border-radius: 5px;
+    border-style: solid;
+    padding: 40px;
+    background-image: url('https://iusnews.ir/images/upload/files/2023/10/1696492748-%D8%A2%D8%B1%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-(2).jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 65%;
+    padding: 10%;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(225, 17, 110);
+    background-color: #ffbfb8;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+    margin-right: 25%;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.8;
+}
+
+section {
+    float: right;
+    background-color: #ffbfb8;
+    border: rgb(245, 190, 188);
+    border-radius: 20px;
+    border: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 40px;
+    color: rgb(225, 17, 110);
+    width: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1;
+
+    overflow: hidden;
+}
+
+li:hover {
+    color: rgb(252, 1, 135);
+    font-size: x-large;
+    border-style: solid;
+    border-color: rgb(225, 17, 110);
+    overflow: hidden;
+}
+
+.active {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #f3dcdc;
+    border-color: rgb(186, 184, 185);
+    border-style: solid;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.service {
+    background-color: #b6b6b6;
+    width: 100%;
+    height: 323px;
+    border: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    float: right;
+    padding-right: 15px;
+}
+
+
+#aboutus {
+    background-color: rgb(245, 190, 188);
+    border: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    padding: 40px;
+    text-align: right;
+    color: rgb(225, 17, 110);
+}
+
+#footer {
+    background-color: #f3dcdc;
+    border: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    padding: 50px;
+    text-align: center;
+    color: rgb(225, 17, 110);
+}
